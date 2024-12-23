@@ -1,0 +1,19 @@
+.back-button {
+    display: inline-block;
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    background-image: url('arrow.png'); /* Ensure arrow.png has transparency */
+    background-size: contain; /* Scales the image to fit */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    background-position: center; /* Centers the image within the button */
+    border: none; /* Removes default button border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    outline: none; /* Removes focus outline on click */
+}
+
+/* Optional: Add hover effect */
+.back-button:hover {
+    opacity: 0.8; /* Slight transparency for hover feedback */
+    transform: scale(1.1); /* Enlarges the button slightly on hover */
+    transition: all 0.2s ease; /* Smooth hover transition */
+}
